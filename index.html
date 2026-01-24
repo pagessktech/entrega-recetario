@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias por tu compra! - Recetario Raíz Consciente</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#5F7F6A',
+                        secondary: '#9DB8A0',
+                        dark: '#000000',
+                        body: '#2B2B2B',
+                        white: '#FFFFFF',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-white text-body flex flex-col min-h-screen items-center justify-center">
+
+    <main class="max-w-2xl mx-auto px-6 py-12 text-center">
+        <!-- Icono de Éxito -->
+        <div class="w-24 h-24 bg-gray-50 text-primary rounded-full flex items-center justify-center mx-auto mb-8 animate-bounce border border-secondary/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl mb-6 text-dark">¡Que lo disfrutes!</h1>
+        <p class="text-body mb-4 text-lg leading-relaxed font-medium">
+            Muchas gracias por confiar en Raíz Consciente.
+        </p>
+        <p class="text-secondary mb-10 text-base max-w-md mx-auto">
+            Tu recetario para sanar la microbiota ya está listo. Espero que estas preparaciones te acompañen a nutrirte con calma.
+        </p>
+        
+        <!-- BOTÓN DE DESCARGA -->
+        <!-- IMPORTANTE: Reemplaza el link de abajo con el del PDF del Recetario Real -->
+        <a href="PEGAR_AQUI_EL_LINK_DEL_RECETARIO" target="_blank" class="inline-block bg-primary text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-[#4a6353] transition shadow-lg hover:shadow-xl transform hover:-translate-y-1 w-full md:w-auto">
+            📥 Descargar Recetario (PDF)
+        </a>
+        
+        <div class="mt-16 pt-8 border-t border-gray-100">
+            <a href="index.html" class="text-sm text-secondary hover:text-primary transition underline font-medium">
+                &larr; Volver al inicio
+            </a>
+        </div>
+    </main>
+
+    <footer class="absolute bottom-4 w-full text-center text-gray-300 text-xs">
+        &copy; 2026 Alimentación Consciente.
+    </footer>
+
+</body>
+</html>
